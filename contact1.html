@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/HOME/Desktop/my%20Portfolio/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Kanit&family=Oswald&family=Play&family=Roboto&family=Saira:wght@700&family=Spline+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: whitesmoke;
+}
+
+#title-1{
+    font-size: 30px;
+    font-weight: 300!important;
+}
+.image-1{
+    width: 100px;
+    height: 100px;
+}
+form{
+    padding:50px 10px 50px 10px;
+}
+label{
+    color: hsl(211, 12%, 48%);
+    font-family: play;
+    font-size: 20px;
+}
+.height{
+    height: 60px;
+}
+.height-2{
+    height: 200px!important;
+}
+@media only screen and (min-width:769px) and (max-width:1440px){
+    #title-1{
+        font-size: 40px;
+    }
+    .pad{
+        padding-left: 160px!important;
+        padding-right: 160px!important;
+    }
+    form{
+        padding-left: 200px;
+        padding-inline-end: 200px;
+    }
+    .move{
+        transform: translateY(-15px);
+    }
+}
+</style>
+<body>
+        <nav class="navbar">
+        <div class="container">
+            <img class="navbar-brand image-1 mt-4" src="images/favpng_web-development-software-development-programmer-computer-programming-custom-software.png">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="homepage.html"><i class="fas fa-window-close fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <section class="container section-1 text-center">
+        <h1 class="px-3 pad" id="title-1">Thanks for taking the time to reach out. How can I help you today?</h1>
+        <form>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <label class="d-flex justify-content-start mt-3" for="fname">Name</label><br>
+                    <input  type="text" id="name" class="form-control height" name="name">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3 move">
+                    <label class="d-flex justify-content-start mt-3" for="fname">Email</label><br>
+                    <input  type="text" id="email" class="form-control height" name="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <label class="d-flex justify-content-start mt-3" class="label-2">Message</label>
+                    <textarea  id="textarea" class="form-control height-2" name="textarea"></textarea>
+                </div>
+            </div>
+            <a href="contact1.html" type="button" class="btn-1 px-5 mt-5">Submit</a>
+        </form>
+    </section>
+
+    
+   
+  
+
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.min.js"> </script>
+</body>
+</html>
